@@ -1,0 +1,32 @@
+<!-- Начало отображения авто Start -->
+<div class="tab-content">
+    <div class="tab-pane fade show active" id="tab_columns_02">
+        <div class="row">
+            {% for auto in auto_list %}
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <!-- Single Product Item Start -->
+                <div class="single-product-item text-center">
+                    <div class="products-images">
+                        <a href="#" class="product-thumbnail">
+                            <img src="/assets/images/auto/{{ auto.img_url }}" class="img-fluid" alt="Product Images">
+                        </a>
+                        <div class="product-actions">
+                            <a href="/auto_detail/{{ auto.id }}"><i class="material-icons">visibility</i> <span class="tool-tip">Подробнее</span></a>
+                            <a href="#"><i class="material-icons">shopping_basket</i> <span class="tool-tip">Добавить в корзину</span></a>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h6 class="prodect-title"><a href="#">{{ auto.title }}</a></h6>
+                        <div class="prodect-price">
+                            <span class="new-price">{{ auto.price }} Р</span>
+                        </div>
+                    </div>
+                </div><!-- Single Product Item End -->
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<a href="/create_auto" class="btn btn-success my-2">Добавить новую машину</a>
+</div>
+<!-- Конец блока отображения авто End -->

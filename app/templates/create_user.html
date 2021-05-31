@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добавление нового пользователя</title>
+</head>
+
+<body>
+    <h1>Обработан запрос с методом {{ method }}</h1>
+
+    <form action="/create_user" method="post">
+        <label>Имя пользователя:</label>
+        <input type="text" name="name">
+        <label>Username:</label>
+        <input type="text" name="username">
+        <button type="submit">Добавить пользователя</button>
+    </form>
+    
+    {% if name %}
+        <p>Имя: {{ name }}</p>
+    {% endif %}
+    {% if username %}
+        <p>Username: {{ username }}</p>
+    {% endif %}
+    
+    <a href="/">Вернуться на главную</a>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+
+
+
+Идентификатор: id_auto
+Автомобиль: name_auto
+Описание автомобиля (картинка ?): auto_description
+Стоимость аренды: price
+
+Статус аренды: in_rent_or_free
+
+Дата и время начала аренды: date_and_time_rent_bigin
+Дата и время завершения аренды: date_and_time_rent_end
+
+Общая стоимость аренды: rent_price
+Общая стоимость аренды: total_cost_of_rent
+Количество бронирований: n_rent
+Общее время аренды: total_time_of_rent

@@ -1,0 +1,36 @@
+index.html
+
+name_auto
+rent_price
+
+
+auto_detail.html
+
+name_auto
+id_auto
+in_rent_or_free
+yes_or_not
+price
+auto_description
+date_and_time_rent_bigin
+date_and_time_rent_end
+total_cost_of_rent
+
+
+rental_log.html
+
+name_auto
+description_auto
+n
+
+
+
+Image
+Автомобиль
+Количество бронирований
+Общее время аренды
+Общая стоимость аренды
+#
+Дата начала аренды
+Дата завершения аренды
+Общая стоимость аренды
